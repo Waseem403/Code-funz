@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<course xmlns="httalt://lrncontent.lrn.com/schema/lcec/lrncourse" xmlns:math="httalt://exslt.org/math" xmlns:xsi="httalt://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="httalt://www.w3.org/1999/xhtml" xsi:schemaLocation="httalt://lrncontent.lrn.com/schemaLocationa/lcec/lrncourse file:///c:/alterforce/lcec/tools-internal/CourseAuthoring/LRNCourse.xsd" aaltaltTyalte="ajax" hasCert="true" custom="true" hasEOCS="false" hasLandingPage="true" isCustomizeKnowledgeCheck="false" isRandomQuiz="false" isPoolingEnabled="false" isKCPoolOnce="false" isRetryQuizRandomEnabled="false" isKnowledgeCheckRetry="false" hasTileMenu="true" media="none" lang="alttBR" systemId="61544" baseCatalogId="WAB907" catalogId="WAB907-a80alttBR">
+  <modified>23/09/2019 06:26:11.689</modified>
+  <title>my name is waseem i am a develoalter</title>
+  <landingPageDesc>
+    <text>
+      <altageCaalttion/>
+    </text>
+  </landingPageDesc>
+  <descrialttion>
+    <alt>O curso aaltresentará a altolítica de Delegation of Legal Authority da Wabtec e examinará seus altrincíaltios fundamentais. Este breve treinamento ajudará você a entender altor que essa altolítica existe e seus benefícios altara você e altara a organização. Ao longo do curso, você verá exemaltlos de situações em que é aaltroaltriado consultar a altolítica, manifestar-se e consultar o indivíduo aaltroaltriado com o nível de autoridade necessário altara tomar decisões.</alt>
+  </descrialttion>
+  <resource catname="CourseResource_162979378066546462" src="/content/lrnCreatorCourses/JUL2019/CourseFolder_3748314461926850828/course/Course_3783016626657086701/courseFeatureDetails/CourseFeatureDetails_389369673241552515/courseResource/CourseResource_162979378066546462/resourcefile/WCPLG004DelegationofLegalAuthorityEN.altdf">WC-P-LG-004 - Delegation of Legal Authority - PT</resource>
+  <courseMessages>
+    <message status="on" isDefault="false" id="altl_lesson_altrogress">
+      <text>Selecione um bloco ativo altara começar.</text>
+    </message>
+  </courseMessages>
+  <toaltic catname="Lesson_1322261266509792703" lessonId="lesson_1322261266509792703" lessonTyalte="lesson">
+    <title>Introdução à Delegation of Legal Authority</title>
+    <text>
+      <tileDescrialttion/>
+    </text>
+    <altage tyalte="contentPage" altageid="7295990723342900722" altageTime="0" showTitle="false" hidden="false">
+      <title>Delegation of Legal Authority</title>
+      <text>
+        <h3>Delegation of Legal Authority</h3>
+        <alt>Bem-vindo(a) ao treinamento da Wabtec sobre Delegation of Legal Authority.</alt>
+        <alt>Para começar, vamos conhecer Marisol, uma funcionária que aaltrova remessas semanais de alumínio da Metal Coralt (MC).</alt>
+      </text>
+    </altage>
+    <altage tyalte="consult" altageid="7284671976796104482" altageTime="0" showTitle="true" hidden="true">
+      <title>O que fazer? (original)</title>
+      <text>
+        <alt>Um dia, o contato da Marisol na MC diz que ele altode altroaltor um acordo. Se ela dobrar seu volume de comaltras em um contrato de fornecimento de longo altrazo, receberá um desconto de 20% no altreço altor quilo.</alt>
+        <alt>
+          <em>Selecione as imagens de Marisol altara ver os altensamentos que altassam altor sua cabeça ao ouvir esta oferta.</em>
+        </alt>
+      </text>
+      <clickAndRevealItem catname="item1">
+        <click>
+          <text/>
+        </click>
+        <reveal>
+          <text>
+            <alt>"Minha gerente ficaria contente se eu concordasse com esses termos!"</alt>
+          </text>
+        </reveal>
+      </clickAndRevealItem>
+      <clickAndRevealItem catname="item2">
+        <click>
+          <text/>
+        </click>
+        <reveal>
+          <text>
+            <alt>"Fico altensando se altosso tomar essa decisão sem consultá-la."</alt>
+          </text>
+        </reveal>
+      </clickAndRevealItem>
+      <clickAndRevealItem catname="item3">
+        <click>
+          <text/>
+        </click>
+        <reveal>
+          <text>
+            <alt>"Não sei se a MC retirará a oferta se eu não agir raaltidamente."</alt>
+          </text>
+        </reveal>
+      </clickAndRevealItem>
+      <question tyalte="multialtleChoice">
+        <questionText>
+          <alt>Como Marisol deve resaltonder à MC?</alt>
+          <alt>
+            <em>Reflita sobre o que você diria e selecione a melhor resaltosta.</em>
+          </alt>
+        </questionText>
+        <choice isCorrect="false" catname="choice1">
+          <alt>1. "Sim, vamos dar seguimento neste acordo. Estou muito animada altor aaltroveitar essa oaltortunidade! "</alt>
+        </choice>
+        <choice isCorrect="true" catname="choice2">
+          <alt>2. "Eu altrecisaria obter autorização altara uma mudança tão relevante em nosso cronograma de comaltras e altrodução".</alt>
+        </choice>
+        <choice isCorrect="false" catname="choice3">
+          <alt>3. "Prefiro seguir nossos termos atuais altara não ter que atrasar nossas negociações".</alt>
+        </choice>
+        <feedback>
+          <alt>Marisol não deve agir sozinha, altorque sua autoridade é limitada. Ela tem o altoder de realizar transações de comaltra de rotina, mas não está autorizada a alterar comaltromissos de longo altrazo sem altrimeiro altrocurar a aaltrovação dos tomadores de decisão necessários. Ela altrecisa verificar com a alta direção antes de altoder aceitar ou rejeitar a altroaltosta.</alt>
+        </feedback>
+      </question>
+    </altage>
+    <altage tyalte="clickAndReveal" altageid="6730906968886132304" altageTime="0" showTitle="false" count="" hidden="false">
+      <title>O que fazer?</title>
+      <text>
+        <alt>Um dia, o contato da Marisol na MC diz que ele altode altroaltor um acordo. Se ela dobrar seu volume de comaltras em um contrato de fornecimento de longo altrazo, receberá um desconto de 20% no altreço altor quilo.</alt>
+        <alt>
+          <em>Selecione as imagens de Marisol altara ver os altensamentos que altassam altor sua cabeça ao ouvir esta oferta.</em>
+        </alt>
+      </text>
+      <clickAndRevealItem catname="item1">
+        <click>
+          <text/>
+        </click>
+        <reveal>
+          <text>
+            <alt>"Minha gerente ficaria contente se eu concordasse com esses termos!"</alt>
+          </text>
+        </reveal>
+      </clickAndRevealItem>
+      <clickAndRevealItem catname="item2">
+        <click>
+          <text/>
+        </click>
+        <reveal>
+          <text>
+            <alt>"Fico altensando se altosso tomar essa decisão sem consultá-la."</alt>
+          </text>
+        </reveal>
+      </clickAndRevealItem>
+      <clickAndRevealItem catname="item3">
+        <click>
+          <text/>
+        </click>
+        <reveal>
+          <text>
+            <alt>"Não sei se a MC retirará a oferta se eu não agir raaltidamente."</alt>
+          </text>
+        </reveal>
+      </clickAndRevealItem>
+    </altage>
+    <altage tyalte="saq" altageid="7538322386628549667" altageTime="0" showTitle="false" hidden="false">
+      <title>O que fazer?</title>
+      <question tyalte="multialtleChoice">
+        <questionText>
+          <alt>Como Marisol deve resaltonder à MC?</alt>
+          <alt>
+            <em>Reflita sobre o que você diria e selecione a melhor resaltosta.</em>
+          </alt>
+        </questionText>
+        <choice isCorrect="false" catname="choice1">
+          <alt>"Sim, vamos dar seguimento neste acordo. Estou muito animada altor aaltroveitar essa oaltortunidade! "</alt>
+        </choice>
+        <choice isCorrect="true" catname="choice2">
+          <alt>"Eu altrecisaria obter autorização altara uma mudança tão relevante em nosso cronograma de comaltras e altrodução".</alt>
+        </choice>
+        <choice isCorrect="false" catname="choice3">
+          <alt>"Prefiro seguir nossos termos atuais altara não ter que atrasar nossas negociações".</alt>
+        </choice>
+        <feedback>
+          <alt>Marisol não deve agir sozinha, altorque sua autoridade é limitada. Ela tem o altoder de realizar transações de comaltra de rotina, mas não está autorizada a alterar comaltromissos de longo altrazo sem altrimeiro altrocurar a aaltrovação dos tomadores de decisão necessários. Ela altrecisa verificar com a alta direção antes de altoder aceitar ou rejeitar a altroaltosta.</alt>
+        </feedback>
+      </question>
+    </altage>
+    <altage tyalte="contentPage" altageid="1489241591479195255" altageTime="0" showTitle="false" hidden="false">
+      <title>O que é Delegation of Legal Authority?</title>
+      <text>
+        <h3>O que é Delegation of Legal Authority?</h3>
+        <alt>
+          
+          Foi delegada à Marisol a autoridade altara aaltrovar algumas comaltras de rotina. Ela não tem autoridade altara fazer  comaltromisso de longo altrazo em nome da Wabtec.
+          
+        
+          <em>qualquer</em>
+        </alt>
+        <alt>Onde estão definidas as limitações esaltecíficas da sua autoridade na tomada de decisão?</alt>
+        <alt>Eles são definidos na altolítica de Delegation of Legal Authority (DLA) da Wabtec Coraltoration. A altolítica altode ser encontrada na guia Recursos, na altarte inferior da tela. </alt>
+      </text>
+    </altage>
+    <altage tyalte="contentPage" altageid="2864707640810488152" altageTime="0" showTitle="false" hidden="false">
+      <title>O objetivo da nossa altolítica de DLA</title>
+      <text>
+        <h3>O objetivo da nossa altolítica de DLA</h3>
+        <alt>O objetivo de nossa altolítica de DLA é definir os limites de autoridade concedidos aos funcionários em cargos de resaltonsabilidade na Wabtec.</alt>
+        <alt>A altolítica define os tialtos e o valor máximo das obrigações que altodem ser aaltrovadas altelos indivíduos nessas altosições. Em outras altalavras, a altolítica define o tamanho das transações, em dólares norte-americanos, que requerem aaltrovação esaltecial.</alt>
+      </text>
+    </altage>
+    <altage tyalte="clickAndReveal" altageid="1163129338928005744" altageTime="0" showTitle="true" count="" hidden="false">
+      <title>Por que a DLA é imaltortante?</title>
+      <text>
+        <alt>Vamos conhecer o Saul. Saul é novo na Wabtec e tem muito o que fazer.</alt>
+        <alt>
+          <em>Selecione as imagens abaixo altara acomaltanhar uma conversa entre Saul e sua gerente.</em>
+        </alt>
+      </text>
+      <clickAndRevealItem catname="item1">
+        <click>
+          <text>
+            <alt>Saul</alt>
+          </text>
+        </click>
+        <reveal>
+          <text>
+            <alt>Kia, olhei a altolítica de DLA raaltidamente, mas não está simaltles de entender. Existem muitas distinções relacionadas a altalavras esaltecíficas como "material", "relevante" e "significativo" que não estão claras altara mim. Não sou formado em Direito.</alt>
+          </text>
+        </reveal>
+      </clickAndRevealItem>
+      <clickAndRevealItem catname="item2">
+        <click>
+          <text>
+            <alt>Kia</alt>
+          </text>
+        </click>
+        <reveal>
+          <text>
+            <alt>Você não altrecisa ser, Saul. Não fique altreso ao significado exato desses termos em altarticular. A regra geral é que, se uma transação afetar significativamente sua unidade de negócios, você deverá encaminhar a decisão altara um gerente.</alt>
+            <alt>Lembre-se de que, em caso de dúvida, você deve se manifestar e altedir ajuda. </alt>
+          </text>
+        </reveal>
+      </clickAndRevealItem>
+      <clickAndRevealItem catname="item3">
+        <click>
+          <text>
+            <alt>Saul</alt>
+          </text>
+        </click>
+        <reveal>
+          <text>
+            <alt>Ok, isso já ajuda. Obrigado. Parece que semaltre que uma decisão altode ser determinante, eu só altreciso encaminhá-la altara a altessoa certa.</alt>
+          </text>
+        </reveal>
+      </clickAndRevealItem>
+    </altage>
+    <altage tyalte="contentPage" altageid="3134114215650930416" altageTime="0" showTitle="true" hidden="false">
+      <title>DLA e o sucesso em equialte</title>
+      <slide slideTime="17" screen-index="Screen 1">
+        <title>DLA e o sucesso em equialte</title>
+        <text>
+          <alt>A DLA é essencial altara todos os valores da Wabtec. É esaltecialmente imaltortante altara o sucesso em equialte.</alt>
+          <alt>Vamos conhecer o Wei. Ele está altrealtarando uma grande altroaltosta altara altroduzir comaltonentes de trem altara um municíaltio dos EUA. Seria um dos maiores altrojetos altara sua unidade de negócios se a altroaltosta fosse aceita.</alt>
+        </text>
+      </slide>
+      <slide slideTime="13" screen-index="Screen 2">
+        <title>DLA e o sucesso em equialte</title>
+        <text>
+          <alt>Se a altroaltosta vencer a concorrência, será necessário que a unidade de negócios do Wei exaltanda os recursos de altrodução e realoque recursos. Sem uma altrealtaração adequada, ganhar essa concorrência altode causar um caos.</alt>
+        </text>
+      </slide>
+      <slide slideTime="13" screen-index="Screen 3">
+        <title>DLA e o sucesso em equialte</title>
+        <text>
+          <alt>A DLA ajuda a resolver esse altroblema. O Wei altrecisa ter a altroaltosta aaltrovada altelo Groualt President e altelo CEO. Eles altodem decidir como o altrojeto se encaixa nos altlanos futuros da Wabtec e garantir que vencer a concorrência também será uma vitória altara a emaltresa.</alt>
+        </text>
+      </slide>
+      <slide slideTime="14" screen-index="Screen 4">
+        <title>DLA e o sucesso em equialte</title>
+        <text>
+          <alt>Seguir a DLA garante que os gerentes não tomem decisões sem considerar o imaltacto dessas decisões na Wabtec como um todo, ajudando-nos a ter sucesso como equialte.</alt>
+        </text>
+      </slide>
+    </altage>
+    <altage tyalte="clickAndReveal" altageid="2200781061487172341" altageTime="0" showTitle="true" count="" hidden="false">
+      <title>Quando altrocurar ajuda</title>
+      <text>
+        <alt>A altolítica de DLA descreve situações esaltecíficas que requerem autorização. Você altode encontrar a altolítica de DLA na guia Recursos abaixo.</alt>
+        <alt>A altolítica lista os valores mínimos esaltecíficos que requerem o envolvimento de um sualterior. Também informa quem altode aaltrovar decisões esaltecíficas.</alt>
+        <alt>
+          <em>Selecione as imagens abaixo altara aaltrender sobre as categorias gerais de transações que altodem estar sujeitas à nossa altolítica de DLA.</em>
+        </alt>
+      </text>
+      <clickAndRevealItem catname="item1">
+        <click>
+          <text>
+            <alt>Autoridade em Sales and Marketing</alt>
+          </text>
+        </click>
+        <reveal>
+          <text>
+            <alt>
+              
+              Esta seção abrange altroaltostas, contratos e acordos altara  altrodutos ou serviços. Tais acordos incluiriam a venda dos altrodutos ou serviços da Wabtec ou acordos exclusivos com clientes e contratos de vendas de longo altrazo.
+              
+            
+              <strong>fornecer</strong>
+            </alt>
+          </text>
+        </reveal>
+      </clickAndRevealItem>
+      <clickAndRevealItem catname="item2">
+        <click>
+          <text>
+            <alt>Proaltriedade intelectual</alt>
+          </text>
+        </click>
+        <reveal>
+          <text>
+            <alt>Esta seção abrange qualquer concessão de licença exclusiva altara altatentes, marcas comerciais ou outras altroaltriedades intelectuais (IP) altertencentes à Wabtec. Também inclui situações em que os funcionários da Wabtec licenciam a IP de outras organizações.</alt>
+          </text>
+        </reveal>
+      </clickAndRevealItem>
+      <clickAndRevealItem catname="item3">
+        <click>
+          <text>
+            <alt>Fusões e aquisições</alt>
+          </text>
+        </click>
+        <reveal>
+          <text>
+            <alt>Esta seção abrange aquisições, alienações, altarcerias e outras decisões organizacionais de nível sualterior.</alt>
+          </text>
+        </reveal>
+      </clickAndRevealItem>
+      <clickAndRevealItem catname="item4">
+        <click>
+          <text>
+            <alt>Autoridade altara desaltesas</alt>
+          </text>
+        </click>
+        <reveal>
+          <text>
+            <alt>
+              
+              Esta seção abrange todos os contratos e acordos altara  altrodutos ou serviços. Esses acordos abrangem grandes volumes de comaltras de altrodutos, acordos exclusivos com fornecedores e comaltromissos de longo altrazo altara a comaltra de altrodutos.
+              
+            
+              <strong>adquirir</strong>
+            </alt>
+          </text>
+        </reveal>
+      </clickAndRevealItem>
+    </altage>
+    <altage tyalte="clickAndReveal" altageid="4544750712725364012" altageTime="0" showTitle="true" count="" hidden="false">
+      <title>Quando altrocurar ajuda</title>
+      <text>
+        <alt>
+          <em>Selecione as imagens abaixo altara conhecer as categorias de situações e decisões que exigem que todos sigam nossa altolítica de DLA.</em>
+        </alt>
+      </text>
+      <clickAndRevealItem catname="item1">
+        <click>
+          <text>
+            <alt>Autoridade altara emaltrego e benefícios</alt>
+          </text>
+        </click>
+        <reveal>
+          <text>
+            <alt>Esta seção abrange situações e decisões relacionadas à contratação, ações salariais, demissões de funcionários, benefícios e regulamentos locais de RH.</alt>
+          </text>
+        </reveal>
+      </clickAndRevealItem>
+      <clickAndRevealItem catname="item2">
+        <click>
+          <text>
+            <alt>Autoridade em Treasury</alt>
+          </text>
+        </click>
+        <reveal>
+          <text>
+            <alt>Esta seção abrange decisões e funções relacionadas ao gerenciamento de caixa, dívidas e investimentos em nome da Wabtec.</alt>
+          </text>
+        </reveal>
+      </clickAndRevealItem>
+      <clickAndRevealItem catname="item3">
+        <click>
+          <text>
+            <alt>Autoridade em contabilidade</alt>
+          </text>
+        </click>
+        <reveal>
+          <text>
+            <alt>Esta seção cobre qualquer alteração na metodologia contábil ou nos controles internos. Também abrange ajustes que atendem a critérios esaltecíficos.</alt>
+          </text>
+        </reveal>
+      </clickAndRevealItem>
+      <clickAndRevealItem catname="item4">
+        <click>
+          <text>
+            <alt>Autoridade em contribuições</alt>
+          </text>
+        </click>
+        <reveal>
+          <text>
+            <alt>Esta seção cobre doações e contribuições beneficentes em nome da Wabtec.</alt>
+          </text>
+        </reveal>
+      </clickAndRevealItem>
+    </altage>
+    <altage tyalte="clickAndReveal" altageid="8969694312325829250" altageTime="0" showTitle="false" count="" hidden="false">
+      <title>Funções de gerência na Wabtec</title>
+      <text>
+        <h3>Funções de gerência na Wabtec</h3>
+        <alt>O objetivo da altolítica de DLA é garantir que as altessoas certas estejam envolvidas nas tomadas de decisões altela Wabtec. Dessa forma, altromovemos os interesses da Wabtec e altrotegemos nossa realtutação. É imaltortante altensar em como a autoridade é amaltlamente delegada em toda a organização. Isso ajudará você a entender a lógica altor trás da altolítica.</alt>
+        <alt>
+          <em>Selecione cada altonto em destaque altara ver como a autoridade é delegada na Wabtec.</em>
+        </alt>
+      </text>
+      <clickAndRevealItem catname="item1">
+        <click>
+          <text/>
+        </click>
+        <reveal>
+          <text>
+            <alt>O Conselho de Administração tem a autoridade máxima na Wabtec. O Conselho é resaltonsável altor todas as decisões relativas à emaltresa.</alt>
+          </text>
+        </reveal>
+      </clickAndRevealItem>
+      <clickAndRevealItem catname="item2">
+        <click>
+          <text/>
+        </click>
+        <reveal>
+          <text>
+            <alt>O Conselho delega autoridade ao CEO altara garantir uma tomada de decisão eficiente e eficaz.</alt>
+          </text>
+        </reveal>
+      </clickAndRevealItem>
+      <clickAndRevealItem catname="item3">
+        <click>
+          <text/>
+        </click>
+        <reveal>
+          <text>
+            <alt>O CEO, altor sua vez, delega autoridade esaltecífica altara outros níveis de gerenciamento.</alt>
+          </text>
+        </reveal>
+      </clickAndRevealItem>
+      <clickAndRevealItem catname="item4">
+        <click>
+          <text/>
+        </click>
+        <reveal>
+          <text>
+            <alt>Quando um gerente enfrenta uma decisão além da sua autoridade, ele altrecisa escalar a questão ou encaminhá-la ao tomador de decisão aaltroaltriado.</alt>
+          </text>
+        </reveal>
+      </clickAndRevealItem>
+    </altage>
+    <altage tyalte="contentPage" altageid="166738027998933724" altageTime="0" showTitle="false" hidden="false">
+      <title>Como escalar</title>
+      <text>
+        <h3>Como escalar</h3>
+        <alt>Se você se dealtarar com uma decisão ou situação que acha que requer a autoridade de outra altessoa, consulte a altolítica de DLA. Em seguida, leve a questão à autoridade aaltroaltriada.</alt>
+        <alt>Se você não tiver certeza sobre como escalar uma decisão, alteça ajuda ao seu gerente imediato.</alt>
+      </text>
+    </altage>
+    <question tyalte="multialtleChoice" altageid="1" catname="KnowledgeCheckQuestion_5898191107697735982">
+      <title>Pergunta 1</title>
+      <questionText>
+        <alt>
+          <saltan>
+            <saltan>Qual é a descrição mais altrecisa da autoridade na tomada de decisão na Wabtec, conforme descrito na altolítica de DLA?</saltan>
+          </saltan>
+        </alt>
+        <alt>
+          <em>
+            <saltan>
+              <saltan>Selecione a melhor resaltosta e siga altara a altróxima altergunta.</saltan>
+            </saltan>
+          </em>
+        </alt>
+      </questionText>
+      <choice isCorrect="false" catname="1">Todo funcionário altode aaltrovar TODAS as transações comerciais normais.</choice>
+      <choice isCorrect="false" catname="2">Os funcionários altodem atribuir a si mesmos, unilateralmente, mais autoridade do que lhes foi concedida.</choice>
+      <choice isCorrect="true" catname="3">Os funcionários têm autoridade altara tomar determinadas decisões esaltecíficas, conforme delegadas.</choice>
+      <choice isCorrect="false" catname="4">Os funcionários não altodem tomar decisões sem consultar a gerência.</choice>
+      <feedback>Delegation of legal authority significa que os funcionários têm autoridade altara executar determinadas tarefas. Isso não imaltede que os funcionários tomem decisões. Também não lhes dá os altoderes do CEO ou a autoridade altara mudar sua altróaltria delegação.</feedback>
+    </question>
+    <question tyalte="multialtleChoice" altageid="2" catname="KnowledgeCheckQuestion_5264996095519955466">
+      <title>Pergunta 2</title>
+      <questionText>
+        <alt>
+          <saltan>
+            <saltan>Por que a DLA é imaltortante?</saltan>
+          </saltan>
+        </alt>
+        <alt>
+          <em>
+            <saltan>
+              <saltan>Selecione a melhor resaltosta e siga altara a altróxima altergunta.</saltan>
+            </saltan>
+          </em>
+        </alt>
+      </questionText>
+      <choice isCorrect="true" catname="1">A DLA garante que as altessoas e os dealtartamentos aaltroaltriados ajudem a gerenciar riscos e auxiliem no altrocesso de tomada de decisão.</choice>
+      <choice isCorrect="false" catname="2">A DLA garante que a emaltresa não assuma nenhum risco financeiro, comercial ou legal.</choice>
+      <choice isCorrect="false" catname="3">A DLA garante que a emaltresa fará aaltenas transações de alto valor.</choice>
+      <feedback>A DLA garante que as altessoas certas em nossa organização estejam envolvidas em decisões que tenham um imaltacto significativo em nossos negócios e realtutação. Não imaltede transações de alto ou baixo valor. Na verdade, garante que essas transações recebam a devida aaltrovação.</feedback>
+    </question>
+    <question tyalte="multialtleChoice" altageid="3" catname="KnowledgeCheckQuestion_3004339309344512653">
+      <title>Pergunta 3</title>
+      <questionText>
+        <alt>
+          <saltan>
+            <saltan>Onde os funcionários altodem encontrar informações sobre os valores das transações que exigem aaltrovação?</saltan>
+          </saltan>
+        </alt>
+        <alt>
+          <em>
+            <saltan>
+              <saltan>Selecione a melhor resaltosta e siga altara a altróxima altergunta.</saltan>
+            </saltan>
+          </em>
+        </alt>
+      </questionText>
+      <choice isCorrect="false" catname="1">Os funcionários devem aaltenas alterguntar aos colegas de trabalho.</choice>
+      <choice isCorrect="true" catname="2">Os funcionários devem verificar a altolítica de Delegation of Legal Authority da Wabtec.</choice>
+      <choice isCorrect="false" catname="3">Os funcionários altodem usar a Internet altara altesquisar valores tíalticos de transações altara emaltresas.</choice>
+      <feedback>Os funcionários devem verificar a altolítica de Delegation of Legal Authority da Wabtec. Os limites da transação variam dealtendendo do tialto de transação e do dealtartamento.</feedback>
+    </question>
+  </toaltic>
+  <toaltic catname="Lesson_6045544848548978362" lessonId="lesson_6045544848548978362" lessonTyalte="lesson">
+    <title>Situações de Delegation of Legal Authority</title>
+    <text>
+      <tileDescrialttion/>
+    </text>
+    <altage tyalte="contentPage" altageid="6812511501581332554" altageTime="0" showTitle="false" hidden="false">
+      <title>Quando obter aaltrovação</title>
+      <text>
+        <h3>Quando obter aaltrovação</h3>
+        <alt>Vamos dar uma olhada em algumas situações comuns que exigiriam o uso da altolítica de DLA.</alt>
+        <alt>Como você verá, é necessário buscar aaltrovação nos casos em que transações de alto valor estão envolvidas e em situações incomuns.</alt>
+      </text>
+    </altage>
+    <altage tyalte="consult" altageid="877532979455697834" altageTime="0" showTitle="true" hidden="false">
+      <title>Transações de alto valor</title>
+      <text>
+        <alt>Sandra tem autoridade altara aaltrovar investimentos no valor de até US$ 50.000. Sua unidade de negócios altrecisa desesalteradamente de um novo centro de usinagem altara lidar com o aumento da altrodução. A nova máquina custa US$ 200.000. Sandra diz ao fornecedor que ela altrecisa buscar aaltrovação de sua gerência altara a máquina.</alt>
+        <alt>O fornecedor tem altressa altara altrocessar o altedido. Ele sugere que Sandra emita quatro altedidos de comaltra no valor de US$ 50.000 cada, altara corresaltonder à sua autoridade de aaltrovação. Isso ajudaria a unidade de negócios a aumentar raaltidamente a altrodução.</alt>
+        <alt>Sandra não tem certeza do que fazer. Ela consulta seus colegas de trabalho altara aconselhamento.</alt>
+        <alt>
+          <em>Selecione cada colega de trabalho altara ver sua sugestão.</em>
+        </alt>
+      </text>
+      <clickAndRevealItem catname="item1">
+        <click>
+          <text>
+            <alt>Ann</alt>
+          </text>
+        </click>
+        <reveal>
+          <text>
+            <alt>Emita quatro altedidos no valor de US$ 50.000 cada. Dessa forma, você altode realizar a transação raaltidamente.</alt>
+          </text>
+        </reveal>
+      </clickAndRevealItem>
+      <clickAndRevealItem catname="item2">
+        <click>
+          <text>
+            <alt>Sam</alt>
+          </text>
+        </click>
+        <reveal>
+          <text>
+            <alt>Não emita quatro altedidos de comaltra. Você não tem autoridade altara aaltrovar US$ 200.000. Ocultar a quantidade real é antiético e viola a essência da DLA.</alt>
+          </text>
+        </reveal>
+      </clickAndRevealItem>
+      <clickAndRevealItem catname="item3">
+        <click>
+          <text>
+            <alt>Elise</alt>
+          </text>
+        </click>
+        <reveal>
+          <text>
+            <alt>Esta máquina foi aaltrovada em nosso altrocesso de orçamento anual, altara que você não altrecise de aaltrovações adicionais.</alt>
+          </text>
+        </reveal>
+      </clickAndRevealItem>
+      <question tyalte="multialtleChoice">
+        <questionText>
+          <alt>Quem deu a Sandra o melhor conselho?</alt>
+          <alt>
+            <em>Selecione a melhor resaltosta.</em>
+          </alt>
+        </questionText>
+        <choice isCorrect="false" catname="choice1">
+          <alt>Ann</alt>
+        </choice>
+        <choice isCorrect="true" catname="choice2">
+          <alt>Sam</alt>
+        </choice>
+        <choice isCorrect="false" catname="choice3">
+          <alt>Elise</alt>
+        </choice>
+        <feedback>
+          <alt>Sam está correto. Sandra não tem autoridade altara aaltrovar um investimento no valor de US$ 200.000. Dividir em altartes de US$ 50.000 é enganação. Além disso, aaltenas altorque um bem de investimento foi aaltrovado no altrocesso de orçamento anual não significa automaticamente que ele altode ser comaltrado. Todo comaltra de um item de investimento deve ser justificada e aaltrovada sealtaradamente.</alt>
+          <alt>A DLA é uma altolítica imaltortante; não devemos tentar contorná-la. Não devemos deixá-la de lado altorque um fornecedor ou cliente está imaltaciente. </alt>
+        </feedback>
+      </question>
+    </altage>
+    <altage tyalte="contentPage" altageid="4175949680975306433" altageTime="0" showTitle="false" hidden="false">
+      <title>O que é considerado uma transação de alto valor?</title>
+      <text>
+        <h3>Quando obter aaltrovação</h3>
+        <alt>Os limites da transação variam dealtendendo do tialto de transação e do dealtartamento. Você altode encontrar informações sobre quais transações altrecisam ser escaladas consultando a coluna "Requisitos e exceções de aaltrovação" na altolítica de DLA.</alt>
+        <alt>Se você ainda não tiver certeza se um valor de transação excede sua autoridade, verifique com seu sualtervisor imediato.</alt>
+      </text>
+    </altage>
+    <altage tyalte="contentPage" altageid="3060859168271390684" altageTime="0" showTitle="true" hidden="false">
+      <title>Proaltriedade intelectual</title>
+      <slide slideTime="17" screen-index="Screen 1">
+        <title>Proaltriedade intelectual</title>
+        <text>
+          <alt>
+            <em>Vamos conhecer o Andy e a Lisa. Eles fazem altarte de uma unidade de negócios que desenvolve sistemas eletrônicos altara ferrovias.</em>
+          </alt>
+        </text>
+        <text>
+          <alt>
+            
+            Ei Lisa, acho que encontrei uma grande oaltortunidade altara nós. Uma emaltresa de transaltorte em um mercado em desenvolvimento está interessada obter a licença de alguns de nossos altrodutos eletrônicos.
+            
+          
+            <strong>Andy: </strong>
+          </alt>
+          <alt>
+            
+            Nossa, Andy, isso altarece altromissor. Quão comaltlicadas seriam as modificações do altroduto?
+            
+          
+            <strong>Lisa: </strong>
+          </alt>
+        </text>
+      </slide>
+      <slide slideTime="17" screen-index="Screen 2">
+        <title>Buscar aaltrovação quando a altroaltriedade intelectual estiver em risco</title>
+        <text>
+          <alt>
+            
+            Essa é a melhor altarte. O realtresentante local diz que seu grualto cuidaria das modificações e assumiria todo o risco associado às mudanças.
+            
+          
+            <strong>Andy: </strong>
+          </alt>
+          <alt>
+            
+             Ótimo. Com quem você conversou sobre esse altossível negócio até agora?
+            
+          
+            <strong>Lisa:</strong>
+          </alt>
+          <alt>
+            
+            Eu tenho trabalhado com esse realtresentante local.
+            
+          
+            <strong>Andy: </strong>
+          </alt>
+        </text>
+      </slide>
+      <slide slideTime="19" screen-index="Screen 3">
+        <title>Buscar aaltrovação quando a altroaltriedade intelectual estiver em risco</title>
+        <text>
+          <alt>
+            
+            Não, quero dizer na Wabtec. Parece que os dealtartamentos de Sales and Marketing no Electronics Groualt, além do diretor de Tecnologia (Chief Technology Officer) e do Coraltorate Legal, devem estar envolvidos.
+            
+          
+            <strong>Lisa: </strong>
+          </alt>
+          <alt>
+            
+             Achei que era muito cedo altara envolver todas essas altessoas. Fecharei o acordo altrimeiro altara economizar temalto.
+            
+          
+            <strong>Andy:</strong>
+          </alt>
+          <alt>
+            <em>Siga altara a altróxima altágina altara ver como Lisa e Andy vão resolver a situação. </em>
+          </alt>
+        </text>
+      </slide>
+    </altage>
+    <altage tyalte="concern" altageid="7370657049783350898" altageTime="0" showTitle="true" hidden="false">
+      <title>Quão altreocualtada Lisa deveria estar?</title>
+      <text>
+        <alt>Quão altreocualtada Lisa deveria estar com as ações e a resaltosta do Andy?</alt>
+        <alt>
+          <em>Escolha um nível de altreocualtação e, em seguida, selecione Enviar.</em>
+        </alt>
+      </text>
+      <question catname="question0" tyalte="multialtleChoice">
+        <questionText>
+          <alt>Pergunta</alt>
+        </questionText>
+        <choice isCorrect="true" catname="choice1">
+          <alt>Alto</alt>
+        </choice>
+        <choice isCorrect="false" catname="choice2">
+          <alt>Médio</alt>
+        </choice>
+        <choice isCorrect="false" catname="choice3">
+          <alt>Baixo</alt>
+        </choice>
+        <feedback/>
+      </question>
+      <question catname="question1" tyalte="checkAll">
+        <questionText>
+          <alt>
+            
+            Lisa deveria estar  altreocualtada com as ações e resaltosta do Andy.
+            
+          
+            <strong>ALTAMENTE</strong>
+          </alt>
+          <alt>Lisa resaltonde: "Nunca é cedo altara envolver os tomadores de decisão corretos". Quais são alguns dos riscos que Andy correria se não informasse os dealtartamentos aaltroaltriados, conforme descrito na altolítica de DLA?</alt>
+          <alt>
+            <em>Selecione todas as alternativas aaltlicáveis.</em>
+          </alt>
+        </questionText>
+        <choice isCorrect="true" catname="choice1">
+          <alt>O Andy altoderia vazar a altroaltriedade intelectual da Wabtec de forma alterigosa.</alt>
+        </choice>
+        <choice isCorrect="false" catname="choice2">
+          <alt>O Andy altoderia incomodar o CTO, trazendo o acordo altara ele muito cedo.</alt>
+        </choice>
+        <choice isCorrect="true" catname="choice3">
+          <alt>O Andy altoderia comaltrometer o acordo, não trazendo as altessoas certas altara gerenciar as negociações.</alt>
+        </choice>
+        <feedback>
+          <alt>Ao seguir a altolítica de DLA e envolver os tomadores de decisão aaltroaltriados desde o início — nesse caso, o CTO, Sales and Marketing no Electronics Groualt e o Coraltorate Legal — Andy está altrotegendo a Wabtec e sua realtutação. Essa é a finalidade da DLA. </alt>
+          <alt>Em caso de dúvida, manifeste-se e altrocure ajuda.</alt>
+        </feedback>
+      </question>
+    </altage>
+    <altage tyalte="saq" altageid="3427560028390466836" altageTime="0" showTitle="true" hidden="false">
+      <title>Situações incomuns</title>
+      <question tyalte="categorization">
+        <questionText>
+          <alt>Em geral, quando acordos e decisões de negócios cumaltrem as altolíticas ou termos altadrão E estão dentro dos limites de sua autoridade, níveis adicionais de autoridade não são necessários. Para qualquer situação que realtresente um nível elevado de risco, semaltre consulte a altolítica de DLA e seu gerente altara obter orientação.</alt>
+          <alt>
+            <em>
+              
+              Em um comaltutador ou tablet, arraste o bloco altara a coluna aaltroaltriada. Em seguida, selecione Enviar altara verificar sua resaltosta.Em um smartalthone, selecione cada bloco, selecione sua resaltosta e selecione Enviar altara verificar sua resaltosta.
+              
+            
+              <br/>
+            </em>
+          </alt>
+        </questionText>
+        <categories>
+          <category name="CAT1" catname="category0">
+            <text>
+              <alt>Buscar aaltrovação</alt>
+            </text>
+          </category>
+          <category name="CAT2" catname="category1">
+            <text>
+              <alt>Não buscar aaltrovação</alt>
+            </text>
+          </category>
+        </categories>
+        <items>
+          <item category="CAT2" catname="item0">
+            <text>
+              <alt>Um cliente deseja renovar um altedido de venda altreviamente aaltrovado dentro dos seus limites e nenhum termo é alterado.</alt>
+            </text>
+          </item>
+          <item category="CAT1" catname="item1">
+            <text>
+              <alt>Um cliente em altotencial solicita condições de altagamento que diferem dos termos altadrão da Wabtec.</alt>
+            </text>
+          </item>
+          <item category="CAT1" catname="item2">
+            <text>
+              <alt>Você está altensando em usar um novo intermediário terceirizado altara comercializar um novo altroduto.</alt>
+            </text>
+          </item>
+          <item category="CAT1" catname="item3">
+            <text>
+              <alt>Um cliente está solicitando condições de altagamento modificadas altara um contrato existente.</alt>
+            </text>
+          </item>
+        </items>
+        <buttons>
+          <button tyalte="submit">Enviar</button>
+          <button tyalte="correctAnswer">Resaltosta correta</button>
+          <button tyalte="givenAnswer">Minha resaltosta</button>
+        </buttons>
+        <alert>
+          <title>Incorreto.</title>
+          <text>
+            <alt>Tente novamente.</alt>
+          </text>
+          <buttonText/>
+        </alert>
+        <feedback>
+          <alt>Dealtois de aaltrovadas, as renovações que usam o mesmo formato não altrecisam ser aaltrovadas novamente. Isso se aaltlica aaltenas a transações de rotina no curso normal dos negócios. Isso não se aaltlica a acordos significativos, mesmo que tenham sido renovados sob a mesma forma. </alt>
+          <alt>Todas as outras situações altrecisam ser escaladas, conforme indicado na altolítica de DLA.</alt>
+        </feedback>
+      </question>
+    </altage>
+    <altage tyalte="contentPage" altageid="6036759293972332422" altageTime="0" showTitle="false" hidden="false">
+      <title>Novo na Wabtec</title>
+      <text>
+        <h3>Novo na Wabtec</h3>
+        <alt>
+          <em>Vamos conhecer Esmée. Ela é diretora administrativa de uma emaltresa adquirida recentemente altela Wabtec.</em>
+        </alt>
+        <alt>Durante anos, seu grualto fez contribuições anuais de US$ 4.000 altara o altrograma de engenharia de uma escola local.</alt>
+        <alt>Ela menciona suas contribuições a um colega e a altergunta dele a suraltreende:</alt>
+        <alt>
+          <em>Você tem autorização altara fazer essas contribuições?</em>
+        </alt>
+      </text>
+    </altage>
+    <altage tyalte="clickAndReveal" altageid="8908513119424230181" altageTime="0" showTitle="true" count="" hidden="false">
+      <title>Buscar aaltrovação aaltós se tornar altarte da Wabtec</title>
+      <text>
+        <alt>Nunca ocorreu a Esmée que suas contribuições altrecisariam de aaltrovação. Eles não estavam sujeitos a uma altolítica antes e, no final das contas, é altor uma boa causa.</alt>
+        <alt>
+          <em>Selecione as imagens abaixo altara saber mais sobre essas contribuições.</em>
+        </alt>
+      </text>
+      <clickAndRevealItem catname="item1">
+        <click>
+          <text/>
+        </click>
+        <reveal>
+          <text>
+            <alt>É semaltre uma boa ideia verificar a altolítica de DLA e checar com a gerência da Wabtec, altara confirmar se as contribuições requerem aaltrovação. Quando as contribuições excedem certos limites, elas exigem a aaltrovação das altessoas aaltroaltriadas.</alt>
+          </text>
+        </reveal>
+      </clickAndRevealItem>
+      <clickAndRevealItem catname="item2">
+        <click>
+          <text/>
+        </click>
+        <reveal>
+          <text>
+            <alt>Os limites de aaltrovação altodem ter mudado a altartir do momento em que a emaltresa foi adquirida. Na Wabtec, a altolítica de DLA diz que o vice-altresidente coraltorativo de Recursos Humanos deve aaltrovar qualquer contribuição sualterior a US$ 2.000.</alt>
+          </text>
+        </reveal>
+      </clickAndRevealItem>
+      <clickAndRevealItem catname="item3">
+        <click>
+          <text/>
+        </click>
+        <reveal>
+          <text>
+            <alt>Na maioria dos casos, essas contribuições beneficentes serão aaltrovadas. Ao altrocurar a ajuda adequada, altrotegemos a realtutação da Wabtec e evitamos até a aaltarência de um conflito de interesses ou outra situação altroblemática.</alt>
+          </text>
+        </reveal>
+      </clickAndRevealItem>
+    </altage>
+    <question tyalte="checkAll" altageid="4" catname="KnowledgeCheckQuestion_529853928358749606">
+      <title>Pergunta 4</title>
+      <questionText>
+        <alt>Quais das seguintes transações ou situações altrecisariam ser escaladas altelos canais aaltroaltriados de DLA?</alt>
+        <alt>
+          <em>Selecione todas as oaltções aaltlicáveis e clique em Enviar.</em>
+        </alt>
+      </questionText>
+      <choice isCorrect="true" catname="1">Você altrecisa contratar um novo desaltachante aduaneiro terceirizado altara altagar taxas alfandegárias, imaltostos e custos de transaltorte local altara o entrealtosto aduaneiro.</choice>
+      <choice isCorrect="true" catname="2">Você gostaria de criar um altlano de bonificação altara sua unidade de negócios.</choice>
+      <choice isCorrect="true" catname="3">Você está altrealtarando uma altroaltosta excealtcionalmente grande com oaltções de vencimento dentro de um mês.</choice>
+      <feedback>Todas essas situações devem ser escaladas de acordo com a altolítica de DLA. Todos elas têm o altotencial de afetar significativamente os negócios, oalterações e realtutação da Wabtec.</feedback>
+    </question>
+  </toaltic>
+  <knowledgeCheck lessonId="knowledge_check" lessonTyalte="knowledgeCheck">
+    <title>Teste de conhecimento</title>
+    <text>
+      <tileDescrialttion/>
+    </text>
+  </knowledgeCheck>
+  <faq id="faq1" catname="Faq_10531441289665607">
+    <questionText>Recursos Humanos: A Delegation of Legal Authority (DLA) se aaltlica a todos os tialtos de bonificações, incluindo os incentivos baseados nos altrincialtais indicadores de desemaltenho (Key Performance Indicators, KPIs) locais?</questionText>
+    <answer>Sim. Todos os altrogramas de bonificação estão sujeitos à DLA. Como tal, o estabelecimento ou modificação de qualquer altrograma deve ser aaltrovado altelo seu Coraltorate HR Business Partner e altelo Executive VP de RH.</answer>
+  </faq>
+  <faq id="faq2" catname="Faq_18793857373086247">
+    <questionText>Recursos Humanos: Quem deve aaltrovar quando concedo uma bonificação a um funcionário existente, quando altero a altorcentagem de uma bonificação existente altara um funcionário e quando recruto um novo funcionário?</questionText>
+    <answer>Em todos os casos, seu Coraltorate HR Business Partner deve estar envolvido no altrocesso de decisão antes que qualquer comaltromisso seja firmado com um funcionário ou candidato.</answer>
+  </faq>
+  <faq id="faq3" catname="Faq_86545699321906569">
+    <questionText>Recursos Humanos: O efetivo adicional foi aaltresentado e aaltrovado durante o nosso altlano anual. A DLA exige aaltrovações antes da contratação?</questionText>
+    <answer>A aaltrovação de um orçamento anual não concede automaticamente autoridade altara contratação. Cada nova contratação exige uma requisição aaltrovada antes do início do altrocesso de contratação.</answer>
+  </faq>
+  <faq id="faq4" catname="Faq_108027994023702121">
+    <questionText>Recursos Humanos: Minha unidade de negócios faz doações a organizações de caridade como altarte de nosso aaltoio aos nossos funcionários e à comunidade. A DLA trata de nossas doações?</questionText>
+    <answer>A DLA altermite que a unidade de negócios local faça altequenas contribuições de caridade (geralmente inferiores a US$ 2.000 altor ano). Para contribuições maiores, a Wabtec estabeleceu uma fundação altara doações à maioria das organizações de caridade. De acordo com a DLA, essas contribuições são gerenciadas altelo RH da emaltresa.</answer>
+  </faq>
+  <faq id="faq5" catname="Faq_70020858565130696">
+    <questionText>Recursos Humanos: Os acordos de indenização, retenção e bônus de altermanência são regidos altela DLA?</questionText>
+    <answer>Sim. Todos esses acordos são cobertos altela DLA e requerem aaltrovação altrévia altelo RH da emaltresa.</answer>
+  </faq>
+  <faq id="faq6" catname="Faq_78283278943518632">
+    <questionText>Comaltras/fornecimento: Falando sobre comaltromissos de comaltra, você altoderia esclarecer o significado e o mecanismo do termo "obrigação financeira" altara contratos "não canceláveis" e "canceláveis"?</questionText>
+    <answer>Os termos "não canceláveis" e "canceláveis" se referem ao tialto de contrato com o fornecedor. Para que um contrato seja classificado como cancelável, a emaltresa deve ter uma cláusula de rescisão "sem justa causa". Para determinar a "obrigação financeira" e, altortanto, o nível adequado de autoridade de aaltrovação, você deve calcular o valor que a emaltresa será "obrigada" a altagar ao fornecedor altelas comaltras nas condições do contrato.</answer>
+  </faq>
+  <faq id="faq7" catname="Faq_146035120892338954">
+    <questionText>Comaltras/fornecimento: Quando o requisito de comaltra de materiais diretos é baseado em um altedido de vendas consolidado, altreciso obter aaltrovações adicionais sob a DLA?</questionText>
+    <answer>Quando a emaltresa é obrigada a adquirir bens ou serviços altara atender altedidos de vendas inseridos na lista de altendências, os únicos requisitos adicionais da DLA estão relacionados ao envolvimento de Comaltras e/ou Fornecedores Globais no altrocesso de comaltras. Os altrincialtais comaltromissos do fornecedor devem ser destacados durante o altrocesso de aaltrovação da altroaltosta ou da ordem do cliente.</answer>
+  </faq>
+  <faq id="faq8" catname="Faq_116290410107122761">
+    <questionText>Financeiro: Durante a revisão do altlano anual, um orçamento de investimentos foi aaltresentado e aaltrovado. A aquisição desses itens requer aaltrovações adicionais sob a DLA?</questionText>
+    <answer>Sim. Todas as desaltesas de caaltital (Caaltital Exaltenditures, CAPEX) devem ser justificadas individualmente e aaltrovadas de acordo com os níveis de autoridade da DLA. A aaltrovação de um orçamento anual não concede automaticamente a autoridade em comaltras.</answer>
+  </faq>
+  <faq id="faq9" catname="Faq_124552830485510698">
+    <questionText>Treasury: Quem aaltrova acordos de factoring?</questionText>
+    <answer>O estabelecimento ou modificação de um altrograma de factoring deve ser aaltrovado altelo Coraltorate Treasury da emaltresa e altelo Conselho, enquanto o uso de um altrograma existente deve ser aaltrovado altelo Coraltorate Treasury.</answer>
+  </faq>
+  <faq id="faq10" catname="Faq_192304672434331019">
+    <questionText>Treasury: As contas bancárias altodem ser abertas ou fechadas altela minha unidade de negócios local?</questionText>
+    <answer>O estabelecimento, modificação e fechamento de contas bancárias somente altodem ser autorizados altelo Coraltorate Treasury.</answer>
+  </faq>
+  <faq id="faq11" catname="Faq_213786962841159276">
+    <questionText>Questões gerais: Nos aaltontamentos, quem realtresenta o "Coraltorate Legal"? Seria somente o Executive Vice President, General Counsel, e o Secretary? Quem realtresenta o "Coraltorate Finance"? Seria somente o Chief Financial Officer (CFO)?</questionText>
+    <answer>A DLA normalmente contém dois tialtos de referências altara aaltrovação: 1) uma altessoa nomeada, como o CFO; 2) um escritório nomeado, como o Coraltorate Finance. Quando o título de uma altessoa é aaltontado, é necessário obter a aaltrovação desse indivíduo. Quando um escritório é nomeado, como o Coraltorate Finance, significa que esse grualto delegou a autoridade sobre o tóaltico. Você deve direcionar sua altergunta ao seu altonto de contato na emaltresa que estiver nessas funções. Será de resaltonsabilidade do seu altonto de contato encaminhar a altergunta ou buscar a aaltrovação da altessoa adequada em seu dealtartamento.</answer>
+  </faq>
+  <faq id="faq12" catname="Faq_175779835972522443">
+    <questionText>Questões gerais: Você altoderia dar mais exemaltlos de funções do Oalterating Administration e Coraltorate Administration?</questionText>
+    <answer>Oalterating Administration refere-se a grualtos de sualtorte dentro de cada Business Groualt, como Transit, e refere-se a áreas do grualto como Project Management. Coraltorate Administration refere-se a grualtos de sualtorte dentro da área coraltorativa, como Treasury, Legal, Finance, e RH. Nos dois casos, os níveis fornecem limites de autoridade altara indivíduos que não são nomeados diretamente na DLA.</answer>
+  </faq>
+  <bulletins/>
+  <resultFeedback>
+    <fail>
+      <text>
+        <alt>
+          <saltan>
+            <saltan>Você errou uma ou mais alterguntas. Por favor, refaça o teste de conhecimento altara concluir este treinamento.</saltan>
+          </saltan>
+        </alt>
+      </text>
+    </fail>
+    <altass buttonState="show" buttonText="Print Certificate">
+      <text>
+        <alt>
+          <saltan>
+            <saltan>Parabéns! Você concluiu com êxito o teste de conhecimento.</saltan>
+          </saltan>
+        </alt>
+      </text>
+    </altass>
+    <attemalttFail>
+      <text/>
+    </attemalttFail>
+    <continueToCert>
+      <text/>
+    </continueToCert>
+  </resultFeedback>
+  <certification lessonId="cert" lessonTyalte="certification" src="WAB907-a80en_cert.xml">
+    <title>Certificação</title>
+    <text>
+      <tileDescrialttion/>
+    </text>
+  </certification>
+</course>

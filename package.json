@@ -1,0 +1,49 @@
+{
+  "name": "school_management",
+  "version": "1.0.0",
+  "description": "school management system is a online website for the student to maintain their studies through online",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "waseem shaikh",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^2.5.0",
+    "async-waterfall": "^0.1.5",
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^4.1.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-ejs-layouts": "^2.5.0",
+    "express-fileupload": "^1.1.4",
+    "express-flash": "0.0.2",
+    "express-flash-messages": "^0.1.1",
+    "express-session": "^1.16.1",
+    "firebase": "^6.0.2",
+    "firebase-admin": "^7.3.0",
+    "googleapis": "^39.2.0",
+    "inbox": "^1.1.59",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.1",
+    "node-gmail-api": "^0.6.1",
+    "node-sms-send": "^0.1.3",
+    "nodemailer": "^6.1.1",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "pusher": "^3.0.0",
+    "socket.io": "^2.2.0",
+    "twilio": "^3.37.1",
+    "validator": "^10.11.0",
+    "xml2js": "^0.4.22"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}

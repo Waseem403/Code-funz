@@ -1,0 +1,54 @@
+<section class="section">
+  <div class="container">
+    <div class="card-panel grey lighten-4">
+      <div class="container black-text">
+        <h4 class="center-align">
+          <strong>School Management</strong>
+        </h4>
+        <p class="left-align"><% include ./partials/messages %></p>
+        <div class="col s12 m6 ">
+          <form method="POST" action="/password/reset/<%=token %>">
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">lock</i>
+                <input
+                  id="password"
+                  name="password"
+                  type="password"
+                  class="validate"
+                  value="<%= typeof password != 'undefined' ? password : '' %>"
+                  required
+                />
+                <label for="password">New Password</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">lock</i>
+                <input
+                  id="password2"
+                  name="password2"
+                  type="password"
+                  class="validate"
+                  value="<%= typeof password2 != 'undefined' ? password2 : '' %>"
+                  required
+                />
+                <label for="password2">Confirm Password</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col s12 center-align">
+                <button
+                  class="btn btn-small black"
+                  style="text-transform:capitalize;letter-spacing: 4px"
+                >
+                  Update password
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
