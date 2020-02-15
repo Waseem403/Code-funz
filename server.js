@@ -38,7 +38,7 @@ app.set("view engine", "ejs");
 // Connect to MongoDB
 mongoose
   .connect(db, {
-    useNewUrlParser: true
+    useNewUrlParser: true,useFindAndModify:false
   })
   .then(() => console.log("Connected To MongoDB"))
   .catch(err => console.log(err));

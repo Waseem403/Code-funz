@@ -55,6 +55,21 @@ const useStyles = makeStyles(muiBaseTheme => ({
       marginLeft: -muiBaseTheme.spacing(0)
     }
   },
+  avatar1: {
+    display: "inline-block",
+    border: "2px solid white",
+    width: 100,
+    height: 100,
+    align: 'center',
+    paddingTop:muiBaseTheme.spacing(2),
+    paddingLeft:muiBaseTheme.spacing(3.2),
+    fontSize:'55px',
+    marginTop: "-7%",
+    borderRadius: '8%',
+    "&:not(:first-of-type)": {
+      marginLeft: -muiBaseTheme.spacing()
+    }
+  },
   socialmedia: {
     display: "inline-block",
     border: "2px solid white",
@@ -107,17 +122,31 @@ function ProfileHeader(props) {
    </Button>
     </React.Fragment>
 
+
+let UserShortName=profile.user.name.charAt(0)
+
+let Profile_Avatar=profile.avatar!==undefined?<Avatar alt="not found" src={profile.avatar} className={classes.avatar} />:<Avatar style={{backgroundColor:profile.color}} className={classes.avatar1}>{UserShortName}</Avatar>
+
+
+let Profile_Avatar_Mob=profile.avatar!==undefined?<Avatar alt="not found" src={profile.avatar} className={classes.avatarmob} />:<Avatar style={{backgroundColor:profile.color}} className={classes.avatarmob}>{UserShortName}</Avatar>
+
+
+
+
+
+
+
   return (
     <React.Fragment>
       <Hidden smDown>
         <div className="App">
-          <Card className={classes.card}>
+          <Card className={classes.card} >
             <CardMedia
               className={classes.media}
               image={profile.BgImage}
             />
             <CardContent className={classes.content}>
-              <Avatar className={classes.avatar} key={""} src={profile.avatar} />
+             {Profile_Avatar}
               <Grid container>
                 <Grid item xs={4}>
                   <Typography variant="h5" component="h2">
@@ -138,7 +167,7 @@ function ProfileHeader(props) {
 
       <Hidden mdUp>
         <div className={classes.paper}>
-          <Avatar className={classes.avatarmob} src={profile.avatar} />
+         {Profile_Avatar_Mob}
           <Container component="main" align="center" maxWidth="md">
             <CssBaseline />
             <Typography component="h1" variant="h5">

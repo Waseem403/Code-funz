@@ -20,7 +20,7 @@ const Profile = require("../../model/Profile");
 // @access  Public
 router.get("/getfeeds", (req, res) => {
   Feedback.find()
-    .populate("profile", ["handle", "avatar", "company", "status", "location"])
+    .populate("profile", ["handle", "avatar", "company", "status", "location","color"])
     .sort({
       date: -1
     })
@@ -100,7 +100,7 @@ router.put("/UpdateFeed/:handler", passport.authenticate("jwt", {
   }
   Feedback
     .find()
-    .populate('profile', ["handle", "avatar", "company", "status", "location"])
+    .populate('profile', ["handle", "avatar", "company", "status", "location","color"])
     .sort({
       date: -1
     })

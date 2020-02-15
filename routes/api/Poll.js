@@ -13,7 +13,7 @@ const validatePollInput = require("../../validation/PollValidation")
 
 
 router.get("/GetPolls", (req, res) => {
-    Poll.find().populate('profile', ['handle', 'user', 'avatar']).sort({
+    Poll.find().populate('profile', ['handle', 'user', 'avatar','color']).sort({
         date: -1
     }).then(polls => {
         res.status(200).json(polls)
@@ -64,7 +64,7 @@ router.post("/Public_Opinion/:Poll_Handler/:Option_Handler", passport.authentica
 }), (req, res) => {
 
 
-    Poll.find().populate('profile', ['avatar', 'handle']).sort({
+    Poll.find().populate('profile', ['avatar', 'handle','color']).sort({
         date: -1
     }).then(Polls => {
         Polls.map(poll => {
@@ -227,7 +227,7 @@ router.put("/UpdatePoll/:Poll_Handler",
     }),
     (req, res) => {
 
-        Poll.find().populate('profile', ['avatar', 'handle']).sort({
+        Poll.find().populate('profile', ['avatar', 'handle',,'color']).sort({
             date: -1
         }).then(polls => {
             polls.map(poll => {

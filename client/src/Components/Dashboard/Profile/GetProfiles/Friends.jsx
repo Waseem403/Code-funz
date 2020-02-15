@@ -6,9 +6,23 @@ import { Friend_RequestSent, Accept_Friend_RequestSent_From_Profiles } from "../
 import { Follow_Peoples, UnFollow_Peoples } from "../../../../actions/Follow"
 import PersonIcon from '@material-ui/icons/Person';
 const useStyles = makeStyles(theme => ({
-    button: {
+    Followbutton: {
         textTransform: 'capitalize',
         letterSpacing: '2px',
+        transition: "1s",
+        "&:hover": {
+          backgroundColor: '#2196f3',
+          color:'white'
+        }
+    },
+    Unfollowbutton: {
+        textTransform: 'capitalize',
+        letterSpacing: '2px',
+        transition: "1s",
+        "&:hover": {
+          backgroundColor: '#f44336',
+          color:'white'
+        }
     }
 }));
 
@@ -40,7 +54,7 @@ function Friends(props) {
                 color="primary"
                 variant="outlined"
                 size="small"
-                className={classes.button}
+                className={classes.Followbutton}
                 onClick={Follow}
             >
                 <i class="fas fa-user-plus"></i> follow
@@ -60,7 +74,7 @@ function Friends(props) {
                     color="secondary"
                     variant="outlined"
                     size="small"
-                    className={classes.button}
+                    className={classes.Unfollowbutton}
                     onClick={UnFollow}
                 >
                     <i class="fas fa-user-minus"></i>  unfollow
@@ -70,7 +84,7 @@ function Friends(props) {
                     color="primary"
                     variant="outlined"
                     size="small"
-                    className={classes.button}
+                    className={classes.Followbutton}
                     onClick={Follow}
                 >
                     <i class="fas fa-user-plus"></i> follow

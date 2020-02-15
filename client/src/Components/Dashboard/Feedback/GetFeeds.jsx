@@ -67,6 +67,12 @@ function GetFeeds(props) {
   let stars = parseInt(feedback.stars);
   let profilepath = `/Getprofile/${feedback.profile.handle}`;
 
+
+  let UserShortName=feedback.name.charAt(0)
+
+  let Profile_Avatar=feedback.profile.avatar!==undefined?<Avatar alt="not found" src={feedback.profile.avatar} className={classes.avatar} />:<Avatar style={{backgroundColor:feedback.profile.color}} className={classes.small}>{UserShortName}</Avatar>
+
+
   return (
     <React.Fragment>
       <Container component="main" maxWidth="lg">
@@ -74,7 +80,7 @@ function GetFeeds(props) {
         <List className={classes.root}>
           <ListItem alignItems="flex-start">
             <ListItemAvatar>
-              <Avatar alt="not found" src={feedback.profile.avatar} />
+            {Profile_Avatar}
             </ListItemAvatar>
 
             <ListItemText

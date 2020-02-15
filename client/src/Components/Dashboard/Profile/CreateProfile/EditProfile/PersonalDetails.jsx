@@ -85,6 +85,7 @@ function PersonalDetails(props)
         value={values.handle}
         onChange={handleChange("handle")}
         margin="normal"
+        disabled
         helperText=" A unique handle for your profile URL. Your full name, company
         name, nickname"
       />

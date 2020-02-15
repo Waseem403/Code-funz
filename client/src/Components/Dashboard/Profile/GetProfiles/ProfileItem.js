@@ -29,6 +29,8 @@ const useStyles = makeStyles(theme => ({
   card: {
     maxWidth: 300,
     margin: "auto",
+    transition: "0.3s",
+    boxShadow: "0 8px 40px -12px rgba(0,0,0,0.3)"
   },
 
   divider: {
@@ -47,25 +49,32 @@ const useStyles = makeStyles(theme => ({
   button: {
     textTransform: 'capitalize',
     letterSpacing: '2px',
-    transition: "0.5s",
+    transition: "1s",
     "&:hover": {
-      backgroundColor: '#2196f3'
+      backgroundColor: '#2196f3',
+      color:'white'
     }
   },
   avatar: {
     width: 80,
     height: 80,
     display: "inline-block",
-    border: "2px solid white",
+ 
     "&:not(:first-of-type)": {
       marginLeft: -theme.spacing(1)
     }
-  }
+  },
+  small: {
+    width: theme.spacing(10),
+    height: theme.spacing(10),
+  },
 }));
 
 function ProfileItem(props) {
   const classes = useStyles();
   const { profile, auth } = props;
+
+
 
   var ActionButtons = profile.user._id === auth.user.id ? <Button
     color="default"
@@ -76,14 +85,16 @@ function ProfileItem(props) {
     <i class="fas fa-user-plus"></i> view
    </Button> : <Friends profile={profile} />
 
-    
+let UserShortName=profile.user.name.charAt(0)
+
+  let Profile_Avatar=profile.avatar!==undefined?<Avatar alt="Remy Sharp" src={profile.avatar} className={classes.avatar} />:<Avatar style={{backgroundColor:profile.color}} className={classes.small}>{UserShortName}</Avatar>
 
   return (
     <div className="App" key={profile._id}>
       <Card className={classes.card} key={profile._id}>
         <CardContent className={classes.content}>
           <Grid container justify="center" alignItems="center" >
-            <Avatar alt="Remy Sharp" src={profile.avatar} className={classes.avatar} />
+            {Profile_Avatar}
           </Grid><br />
           <Typography variant="subtitle1"
             component={Link}

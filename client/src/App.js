@@ -50,7 +50,6 @@ import PollIndex from "./Components/Dashboard/Admin_Panel/DashboardItems/PollInf
 import RequestedListIndex from "./Components/Dashboard/Admin_Panel/Friends/RequestedList/RequestedListIndex"
 import FriendListIndex from "./Components/Dashboard/Admin_Panel/Friends/FriendsLists/FriendListIndex"
 import Todolisted from "./Components/Dashboard/Admin_Panel/DashboardItems/TodoLists/index"
-import Schedulerind from "./Components/Dashboard/Admin_Panel/DashboardItems/Scheduler/Scheduler"
 
 import javascript from "./Components/Courses/Javascript/index"
 
@@ -117,7 +116,6 @@ class App extends Component {
               <PrivateRoute exact path="/Following" component={RequestedListIndex} />
               <PrivateRoute exact path="/Followers" component={FriendListIndex} />
               <PrivateRoute exact path="/Todolisted" component={Todolisted} />
-              <PrivateRoute exact path="/Schedulerind" component={Schedulerind} />
               <PrivateRoute exact path="/javascript" component={javascript} />
             </Switch>
           </div>

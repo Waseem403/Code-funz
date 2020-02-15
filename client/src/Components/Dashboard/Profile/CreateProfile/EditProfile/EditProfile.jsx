@@ -20,7 +20,7 @@ class EditProfile extends Component {
 
     render() {
         const { profile, loading } = this.props.profile
-        console.log(profile)
+    
         let dashboardContent;
 
         if (profile === null || loading) {

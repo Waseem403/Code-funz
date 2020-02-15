@@ -7,6 +7,11 @@ import Feedback from "./Feedback";
 import Feedfunc from "./Feedfunc";
 import Starrating from "./Starrating";
 import CircularProgress from "@material-ui/core/CircularProgress";
+import Typography from "@material-ui/core/Typography";
+import ErrorIcon from '@material-ui/icons/Error';
+
+
+
 class Feedind extends Component {
   state = {};
 
@@ -26,8 +31,17 @@ class Feedind extends Component {
         </div>
       );
     } else {
-      FeedContent = <Feedfunc feedbacks={feedbacks} profile={profile} />;
+      if(feedbacks.length===0)
+      {
+        FeedContent=<Typography color="error" component="h1" style={{paddingTop:"40px"}} align='center' variant="h5">
+        <b><ErrorIcon fontSize="medium"/> There are no feedbacks exists currently to display.</b>
+       </Typography>
+      }
+      else
+      {
+        FeedContent = <Feedfunc feedbacks={feedbacks} profile={profile} />;
       Starratings = <Starrating feed={feedbacks} />;
+      }
     }
 
     return (

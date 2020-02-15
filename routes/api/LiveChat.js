@@ -3,7 +3,6 @@ const router = express.Router();
 const mongoose = require("mongoose");
 const passport = require("passport");
 
-var inbox = require("inbox");
 
 router.post("/inbox", (req, res) => {
   let email = req.body.email;

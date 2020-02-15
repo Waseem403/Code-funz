@@ -108,13 +108,23 @@ class PostItem extends Component {
   render() {
     const { post, auth, classes } = this.props
     const { anchorEl } = this.state
+
+
+
+
+    let UserShortName=post.name.charAt(0)
+
+    let Profile_Avatar=post.profile.avatar!==undefined?<Avatar alt="not found" src={post.profile.avatar} className={classes.avatar} />:<Avatar style={{backgroundColor:post.profile.color}} className={classes.small}>{UserShortName}</Avatar>
+  
+
     return (<React.Fragment>
       <List className={
         classes.root
       } >
         <ListItem alignItems="flex-start" >
           <ListItemAvatar >
-            <Avatar alt="Not found" src={post.profile.avatar} /></ListItemAvatar >
+           {Profile_Avatar}
+           </ListItemAvatar >
           <ListItemText primary={post.name}
             secondary={
               <React.Fragment >

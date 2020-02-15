@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "../Images/img1.jpeg";
+import img1 from "../Images/bg-masthead.jpg";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 

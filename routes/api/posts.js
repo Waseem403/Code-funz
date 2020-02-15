@@ -27,8 +27,8 @@ router.get("/test", (req, res) =>
 // @access  Public
 router.get("/", (req, res) => {
   Post.find()
-    .populate("profile", ['avatar', 'handle'])
-    .populate("comments.profile", ['avatar', 'handle'])
+    .populate("profile", ['avatar', 'handle','color'])
+    .populate("comments.profile", ['avatar', 'handle','color'])
     .sort({
       date: -1
     })
@@ -45,8 +45,8 @@ router.get("/", (req, res) => {
 // @access  Public
 router.get("/:id", (req, res) => {
   Post.findById(req.params.id)
-    .populate("profile", 'avatar')
-    .populate("comments.profile", ['avatar', 'handle'])
+    .populate("profile", ['avatar','color'])
+    .populate("comments.profile", ['avatar', 'handle','color'])
     .sort({
       date: -1
     })
@@ -119,7 +119,7 @@ router.put(
       return res.status(400).json(errors);
     }
 
-    Post.find().populate('profile', ['avatar', 'handle']).sort({
+    Post.find().populate('profile', ['avatar', 'handle','color']).sort({
       date: -1
     }).then(posts => {
       posts.map(post => {
@@ -148,7 +148,7 @@ router.post(
     Profile.findOne({
       user: req.user.id
     }).then(profile => {
-      Post.find().populate('profile', ['avatar', 'handle']).sort({
+      Post.find().populate('profile', ['avatar', 'handle','color']).sort({
           date: -1
         }).then(posts => {
           posts.map(post => {
@@ -193,7 +193,7 @@ router.post(
     Profile.findOne({
         user: req.user.id
       }).then(profile => {
-        Post.find().populate('profile', ['avatar', 'handle']).sort({
+        Post.find().populate('profile', ['avatar', 'handle','color']).sort({
           date: -1
         }).then(posts => {
           posts.map(post => {
@@ -290,8 +290,8 @@ router.post(
     }
 
     Post.findById(req.params.id)
-      .populate("profile", ['avatar', 'handle'])
-      .populate("comments.profile", ['avatar', 'handle'])
+      .populate("profile", ['avatar', 'handle','color'])
+      .populate("comments.profile", ['avatar', 'handle','color'])
       .then(post => {
         Profile.findOne({
           user: req.user.id
@@ -343,8 +343,8 @@ router.put(
     }
 
     Post.findById(req.params.id)
-      .populate("profile", ['avatar', 'handle'])
-      .populate("comments.profile", ['avatar', 'handle']).then(post => {
+      .populate("profile", ['avatar', 'handle','color'])
+      .populate("comments.profile", ['avatar', 'handle','color']).then(post => {
         post.comments.map(posts => {
           if (posts._id.toString() === req.body.id) {
             const CDate = new Date()
@@ -376,7 +376,7 @@ router.post(
     }).then(profile => {
       Post.findById(req.body.PostId)
         .populate("profile")
-        .populate("comments.profile", ['avatar', 'handle'])
+        .populate("comments.profile", ['avatar', 'handle','color'])
         .then(post => {
           post.comments.map(comment => {
             if (comment._id.toString() === req.body.ReplyId) {
@@ -420,7 +420,7 @@ router.post(
     }).then(profile => {
       Post.findById(req.body.PostId)
         .populate("profile")
-        .populate("comments.profile", ['avatar', 'handle'])
+        .populate("comments.profile", ['avatar', 'handle','color'])
         .then(post => {
           post.comments.map(comment => {
             if (comment._id.toString() === req.body.ReplyId) {
@@ -469,7 +469,7 @@ router.delete(
   (req, res) => {
     Post.findById(req.params.id)
       .populate("profile")
-      .populate("comments.profile", ['avatar', 'handle'])
+      .populate("comments.profile", ['avatar', 'handle','color'])
       .then(post => {
         // Check to see if comment exists
         if (post.comments.filter(comment => comment._id.toString() === req.params.comment_id).length === 0) {

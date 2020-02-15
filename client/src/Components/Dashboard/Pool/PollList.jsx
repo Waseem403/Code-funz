@@ -44,14 +44,21 @@ class PollList extends Component {
     handleClose = () => this.setState({ anchorEl: null })
 
 
+
+
     render() {
         const { Poll, auth, classes } = this.props
         const { anchorEl } = this.state
+
+        let UserShortName=Poll.UserName.charAt(0)
+
+    let Profile_Avatar=Poll.profile.avatar!==undefined?<Avatar alt="not found" src={Poll.profile.avatar} className={classes.avatar} />:<Avatar style={{backgroundColor:Poll.profile.color}} className={classes.small}>{UserShortName}</Avatar>
+
         return (<React.Fragment>
             <List className={classes.root} style={{ display: Poll.IsPollEnds ? "none" : "block" }}>
                 <ListItem alignItems="flex-start" >
                     <ListItemAvatar >
-                        <Avatar alt="Not found" src={Poll.profile.avatar} />
+               {Profile_Avatar}
                     </ListItemAvatar >
                     <ListItemText primary={Poll.UserName}
                         secondary={

@@ -138,6 +138,7 @@ router.post(
       isValid
     } = validateProfileInput(req.body);
 
+       console.log("testing...")
     // Check Validation
     if (!isValid) {
       // Return any errors with 400 status
@@ -173,7 +174,15 @@ router.post(
     req.body.linkedin ? profileFields.social.linkedin = req.body.linkedin : profileFields.social.linkedin = "";
     req.body.youtube ? profileFields.social.youtube = req.body.youtube : profileFields.social.youtube = "";
     req.body.instagram ? profileFields.social.instagram = req.body.instagram : profileFields.social.instagram = "";
+    
+    const Colorsarray=['#f44336','#2196f3','#ab47bc','#e91e63',
+                       '#e91e63','#304ffe','#26c6da','#66bb6a',
+                        '#2196f3','#d500f9'
+                      ]
+    let RandomPickUp=Math.floor(Math.random() * 11);      // returns a random integer from 0 to 10
 
+    console.log(RandomPickUp)
+    profileFields.color=Colorsarray[RandomPickUp]
 
     Profile.findOne({
       user: req.user.id
@@ -194,7 +203,7 @@ router.post(
         }).then(profile => {
           if (profile) {
             errors.handle = "That handle already exists";
-            res.status(400).json(errors);
+            return res.status(400).json(errors);
           }
           // Save Profile
           new Profile(profileFields).save().then(profile => res.json(profile));

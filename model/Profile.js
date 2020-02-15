@@ -286,6 +286,9 @@ const ProfileSchema = new Schema({
       default: Date.now
     }
   }],
+  color:{
+    type:String,
+  },
   date: {
     type: Date,
     default: Date.now

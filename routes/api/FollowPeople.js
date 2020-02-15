@@ -8,9 +8,6 @@ const xml2js = require('xml2js');
 const fs = require("fs")
 const path = require("path");
 
-const accountSid = 'ACcb47e2592786afb07c3428337ab2d1e0';
-const authToken = 'bbbba50ac067007bf183c6ccd6660bce';
-const client = require('twilio')(accountSid, authToken);
 // //adding pushers
 // const Pusher = require('pusher');
 

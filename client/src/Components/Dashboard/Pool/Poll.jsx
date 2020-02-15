@@ -58,7 +58,16 @@ class Poll extends Component {
             );
         }
         else {
-            PollContent = <PollLists Polls={Polls} />
+            if(Polls.length===0)
+            {
+             PollContent= <Typography color="error" component="h1" style={{paddingTop:"40px"}} align='center' variant="h5">
+                                 <b>There are no polls exists currently to display.</b>
+                                </Typography>
+            }
+            else
+            {
+                PollContent = <PollLists Polls={Polls} />
+            }
         }
         return (
             <React.Fragment >

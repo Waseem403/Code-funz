@@ -87,7 +87,6 @@ schedulerData.setEvents(events);
 
 
 //3. render the scheduler component, mind that the Scheduler component should be placed in a DragDropContext(father or ancestor).
-const { schedulerData } = this.props;
 <Scheduler schedulerData={schedulerData}
     prevClick={this.prevClick}
     nextClick={this.nextClick}

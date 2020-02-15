@@ -104,13 +104,19 @@ function CommentItem(props) {
   }
 
 
+  let UserShortName=comment.name.charAt(0)
+
+  let Profile_Avatar=comment.profile.avatar!==undefined?<Avatar alt="not found" src={comment.profile.avatar} className={classes.avatar} />:<Avatar style={{backgroundColor:comment.profile.color}} className={classes.small}>{UserShortName}</Avatar>
+
+
+
 
   return (
     <React.Fragment>
       <List className={classes.root}>
         <ListItem alignItems="flex-start">
           <ListItemAvatar>
-            <Avatar alt="Not found" src={comment.profile.avatar} />
+            {Profile_Avatar}
           </ListItemAvatar>
           <ListItemText
             primary={comment.name}

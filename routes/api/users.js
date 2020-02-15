@@ -66,14 +66,14 @@ router.post("/register", (req, res) => {
                   service: "gmail",
                   host: "smtp.gmail.com",
                   auth: {
-                    user: "b.waseem.403@gmail.com",
+                    user: "codefunzz@gmail.com",
                     pass: "9966599303"
                   }
                 })
               );
 
               var mailOptions = {
-                from: "b.waseem.403@gmail.com",
+                from: "codefunzz@gmail.com",
                 to: email,
                 subject: "School Management Registeration Details.",
                 html: `<p>Hi ${name}<p>

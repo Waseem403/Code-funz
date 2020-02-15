@@ -53,7 +53,13 @@ export const createProfile = (profileData, history) => dispatch => {
   dispatch(setProfileLoading());
   axios
     .post("/api/profile", profileData)
-    .then(res => history.push("/Getyourprofile"))
+    .then(res => {
+      dispatch({
+        type: CLEAR_ERRORS,
+        payload: res.data
+      });
+      history.push("/Getyourprofile")
+    })
     .catch(err =>
       dispatch({
         type: GET_ERRORS,

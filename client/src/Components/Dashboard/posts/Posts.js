@@ -20,6 +20,10 @@ import Typography from "@material-ui/core/Typography";
 import {
   makeStyles
 } from "@material-ui/core/styles";
+import ErrorIcon from '@material-ui/icons/Error';
+
+
+
 
 const useStyles = makeStyles(theme => ({
   H1: {
@@ -60,10 +64,16 @@ function Posts(props) {
     </div >
     );
   } else {
-    postContent = < PostFeed posts={
-      posts
-    }
-    />;
+      if(posts.length===0)
+      {
+        postContent = <Typography color="error" component="h1" style={{paddingTop:"40px"}} align='center' variant="h5">
+        <b><ErrorIcon fontSize="medium"/> There are no feedbacks exists currently to display.</b>
+       </Typography>
+      }
+      else
+      {
+        postContent = < PostFeed posts={posts}/>;
+      }
   }
 
 

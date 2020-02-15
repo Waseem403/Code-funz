@@ -38,7 +38,7 @@ const useStyles = makeStyles(theme => ({
   },
   backbtn: {
     [theme.breakpoints.up('sm')]: {
-      left: '16.5%',
+      left: '18.5%',
     },
     bottom: '20%',
     position: 'fixed',
