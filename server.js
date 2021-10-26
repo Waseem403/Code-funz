@@ -67,7 +67,7 @@ app.use(function (req, res, next) {
   res.status(404).render("404");
 });
 
-// Server static assets if in production
+// Server static assets if in production mostly in heroku platform
  if (process.env.NODE_ENV === "production") {
    // Set static folder
    app.use(express.static("client/build"));
