@@ -67,7 +67,7 @@ router.post("/register", (req, res) => {
                   host: "smtp.gmail.com",
                   auth: {
                     user: "codefunzz@gmail.com",
-                    pass: "9966599303"
+                    pass: "Wsm403$410"
                   }
                 })
               );
