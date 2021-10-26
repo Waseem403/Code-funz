@@ -62,14 +62,14 @@ router.post("/forgot", function (req, res, next) {
           service: "gmail",
           host: "smtp.gmail.com",
           auth: {
-            user: "b.waseem.403@gmail.com",
-            pass: "9966599303"
+            user: "codefunzz@gmail.com",
+            pass: "Wsm403$410"
           }
         })
       );
       var mailOptions = {
         to: user.email,
-        from: "schoolmanagement410@gmail.com",
+        from: "codefunzz@gmail.com",
         subject: "School Management Password Reset",
         text: "Hi " +
           user.name +
